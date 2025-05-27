@@ -5,6 +5,7 @@ import Navbar from './Navbar.jsx'
 import Value from './Value.jsx'
 import Passion from './Passion.jsx'
 import Work from './Work.jsx'
+import Services from './Services.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
           <Value></Value>
           <Passion></Passion>
           <Work></Work>
+          <Services></Services>
         </div>
       }>
       </Route>
